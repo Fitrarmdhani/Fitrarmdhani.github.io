@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Open Trip Pantai</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1 class="judul">CLEANMOTO STEAM</h1>
+            <p class="slogan">Jasa Cuci Kendaraan Roda 2 dan 4</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">
+                <img class="logo" src="image/12.jpg" alt="Logo">
+            </a>
+            <ul>
+                <li><a class="btn-nav" href="index.html#home">Home</a></li>
+                <li><a class="btn-nav" href="index.html#profil">Profil</a></li>
+                <li><a class="btn-nav" href="index.html#produk">Produk</a></li>
+                <li><a class="btn-nav" href="index.html#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="wrapper">
+            <h1 class="subjudul">Cuci Detailing</h1>
+            <div class="product-list">
+                <div class="product">
+                    <img src="image/detailing.jpeg" alt="Kuta">
+                    <div class="location">Cuci Detailing</div>
+                    <div class="discount">Rp. 50.000,00</div>
+                </div>
+            </div>
+        </section>
+        <!-- Formulir Pemesanan -->
+        <section class="order-form">
+            <h2>Formulir Pemesanan</h2>
+            <form action="proses_pemesanan.php" method="POST">
+                <input type="text" name="nama" placeholder="Nama lengkap" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="telepon" placeholder="Nomor Telepon" required>
+                <textarea name="pesan" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
