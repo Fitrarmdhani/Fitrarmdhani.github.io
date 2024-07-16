@@ -5,9 +5,10 @@
 }
 
 .jumbotron {
-    background-image: url(image/2.jpg);
+    background-image: url(image/Motor.jpg);
     background-size: cover;
-    color: black;
+    background-position: center;
+    color: lightgoldenrodyellow;
     text-align: center;
     height: 300px;
     display: flex;
@@ -57,7 +58,8 @@ ul {
 
 .wrapper {
     background-color: #ACE2E1;
-    padding: 15px;
+    padding: 25px;
+    padding-left: 20px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
